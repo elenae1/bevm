@@ -1,0 +1,2 @@
+else ifeq (, $(TERM))
+  # Terminal type not set, so tput would fail.
