@@ -1,0 +1,2 @@
+if len(events) == 0 {
+		return nil, errors.New("unable to find MessagePassed event")
