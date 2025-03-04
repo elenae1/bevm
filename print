@@ -1,0 +1,3 @@
+# print in bold red to bring attention.
+  banner-style = $(shell tput bold)$(shell tput setaf 1)$1$(shell tput sgr0)
+endif
