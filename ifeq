@@ -1,2 +1,4 @@
 ifeq (, $(shell which tput))
   # CI environment typically does not support tput.
+.PHONY:
+	$(DEPRECATED_TARGETS)
