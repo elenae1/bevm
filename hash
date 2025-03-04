@@ -1,1 +1,4 @@
 func StorageSlotOfWithdrawalHash(hash common.Hash) common.Hash {
+# Variable assignments can affect the semantic of the make targets.
+# Typical use-case: setting VERSION in a release build, since CI
+# doesn't preserve the git environment.
