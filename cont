@@ -1,0 +1,2 @@
+ev, err := contract.ParseMessagePassed(*log)
+		if err != nil {
