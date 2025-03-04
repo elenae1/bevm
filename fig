@@ -1,2 +1,4 @@
 "recommendations": [
     "editorconfig.editorconfig",
+# MAKEFLAGS is a string of the form:
+# "abc --foo --bar=baz -- VAR1=val1 VAR2=val2", namely:
